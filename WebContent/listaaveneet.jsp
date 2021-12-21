@@ -65,7 +65,7 @@ function haeTiedot(){
         	htmlStr+="<td>"+field.leveys+"</td>"; 
         	htmlStr+="<td>"+field.hinta+"</td>";
         	htmlStr+="<td><a href='muutavene.jsp?tunnus="+field.tunnus+"'>Muuta</a>&nbsp;";
-        	htmlStr+="<span class='poista' onclick=poista("+field.tunnus+",'"+field.nimi+"','"+field.merkkimalli+"')>Poista</span></td>"; 
+        	htmlStr+="<span class='poista'&nbsp;onclick=poista("+field.tunnus+",'"+field.nimi+"','"+field.merkkimalli+"')>Poista</span></td>"; 
         	htmlStr+="</tr>";
         	$("#listaus tbody").append(htmlStr);
         });
